@@ -1,0 +1,19 @@
+{
+ "name": "kamatali/php-framework",
+ "description": "My first framework",
+ "type": "project",
+ "autoload": {
+  "psr-4": {
+   "main\\": "main/"
+  }
+ },
+ "require": {
+  "php": ">=7.4",
+  "ext-pdo": "*"
+ },
+ "config": {
+  "optimize-autoloader": true,
+  "preferred-install": "dist",
+  "sort-packages": true
+ }
+}
