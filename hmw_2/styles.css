@@ -1,0 +1,71 @@
+.form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    min-height: 2rem;
+    padding-left: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.mini-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+* {
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+form{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.mini-wrap input[type="radio"]:checked {
+    background-color: aquamarine;
+}
+
+button {
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+main, footer {
+    display: flex;
+    margin: 0 auto;
+}
+
+textarea {
+    border-radius: 0.5rem;
+}
+
+footer {
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+input:user-valid {
+    border: lightgreen 2px solid
+}
+
+input:user-invalid {
+    border: lightcoral 2px solid
+}
